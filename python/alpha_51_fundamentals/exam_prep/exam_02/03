@@ -1,0 +1,25 @@
+Mountain Climbing
+enter image description here
+
+Sample Tests
+Input
+1 7 3 5 8 11 6 2
+Output
+9
+Explanation:
+the highest climb is the one from 2 to 11.
+                    11
+                   /  \
+                  /    \
+                 8      \
+        7       /        \
+       / \     /          6
+      /   \   5            \
+     /     \ /              \
+    /       3                \ 
+   /                          2
+  1                          
+Input
+1 2 3
+Output
+2

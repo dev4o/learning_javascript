@@ -1,0 +1,30 @@
+Pile of Wood
+Rayko has been chopping wood all day, now he must assemble the logs.
+
+Write a program that reads a number - N - representing a number of wood logs - and calculates the height of the largest complete pile that can be built. Each row of the pile must have one log less than the previous one, or it will collapse. Examples:
+
+N = 6               N = 5                                      N = 7
+  *                   *                                          *
+ * *                 * *                                        * * 
+* * *               * *   (last row is incomplete)             * * *
+height = 3         height = 2                                 *
+                                                            height = 3
+Input
+Single line - N - the number of available wood logs.
+Output
+Single line - height - the largest possible height (don't draw the pile!)
+Constraints
+1 <= N <= 10000
+Sample Tests
+Input
+5
+Output
+2
+Input
+2
+Output
+1
+Input
+10
+Output
+4
